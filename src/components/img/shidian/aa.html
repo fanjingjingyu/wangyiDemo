@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=0.5,minimum-scale=0.5,user-scalable=no" />
+    <title>wangyi</title>
+    <link rel="stylesheet" href="./static/reset.css">
+    <style>
+
+        .TheTopic{
+            border-image: url("shidian/bj.png");
+        }
+        .TopicTitle{
+            width: 100%;
+            display: flex;
+            font-size: 0.2rem;
+            line-height: 1.5rem;
+            font-weight: bold;
+            justify-content: center;
+            align-items: center;
+            background-color: #ffffff;
+        }
+        .TopicTitle span{
+            display: inline-block;
+            font-size: 0.5rem;
+            text-align: center;
+            vertical-align: middle;
+        }
+        .TopicTitle img{
+            width: 0.4rem;
+            height:0.4rem;
+            display: inline-block;
+            margin-left: 0.1rem;
+        }
+        .TopicContainer{
+            width: 100%;
+            background-color: #ffffff;
+        }
+        .TopicList{
+            display: flex;
+            font-size: 0.3rem;
+            overflow: scroll;
+        }
+        /*      ::-webkit-scrollbar-thumb{
+                  display: none; !*隐藏滚动条*!
+              }
+              .TopicInner{
+                  width:100%;
+                  padding: 0.4rem;
+              }
+              .TopicList span{
+                  margin-top: 0.05rem;
+                  font-size: 0.3rem;
+                  display: inline-block;
+                  padding: 0.1rem;
+                  justify-content: space-between;
+              }
+              .Ttxt2 {
+                  float: right;
+                  color: #cc0031;
+              }
+      */
+
+
+    </style>
+</head>
+<body>
+<div id="app">
+    <div class="TheTopic">
+        <div class="TopicTitle">
+            <span>十点一刻</span>
+        </div>
+        <div class="TopicContainer">
+            <div class="TopicList"   >
+                <div class="TopicInner">
+                    <span>今日话题</span>
+                    <h3>关于单身</h3>
+                    <h5>聊聊单身的好处</h5>
+                    <div></div>
+                    <div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- built files will be auto injected -->
+</body>
+<script>
+
+
+    /*  REM 适配*/
+    !(function () {
+        var styleNode = document.createElement('style');
+        var w = document.documentElement.clientWidth/10;
+        styleNode.innerHTML = 'html{font-size:'+w+'px!important}';
+        document.head.appendChild(styleNode);
+    })();
+</script>
+</html>
