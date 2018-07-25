@@ -1,4 +1,4 @@
-# gshop
+# wangyi
 
 > A Vue.js project
 
