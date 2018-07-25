@@ -41,7 +41,6 @@
 <style>
 .wrap{
   width: 100%;
-
 }
   .List{
     width: 100%;
