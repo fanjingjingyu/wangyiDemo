@@ -11,12 +11,12 @@
   import Header from '../../components/Header/Header.vue'
   import Types from '../../components/Types/Types.vue'
 
-
   export default {
     components:{
       Header,
-      Types
-    }
+      Types,
+
+          }
   }
 
 </script>

@@ -11,26 +11,23 @@
       <div class="swiper-slide slideImg3">
         <img src="./imgSlide/03.jpg">
       </div>
-
       <div class="swiper-slide slideImg4">
         <img src="./imgSlide/04.jpg">
       </div>
       <div class="swiper-slide slideImg5">
         <img src="./imgSlide/05.jpg">
       </div>
-
       <div class="swiper-slide slideImg6">
         <img src="./imgSlide/06.jpg">
       </div>
       <div class="swiper-slide slideImg7">
         <img src="./imgSlide/07.jpg">
       </div>
-
       <div class="swiper-slide slideImg8">
         <img src="./imgSlide/08.jpg">
       </div>
     </div>
-    <div class="swiper-pagination"></div>
+    <div class="swiper-pagination pagination-current"></div>
   </div>
 
 </div>
@@ -45,7 +42,7 @@
       this.$nextTick(()=> {
         new Swiper('.swiper-container', {
           slidesPerView: 'auto', /*swiper内容超出添加横向滚动条*/
-
+          currentClass:'pagination-current',
           autoplay:true,
           loop: true,
           pagination: {
@@ -64,10 +61,19 @@
 
 .swiper-container{
    width: 100%;
-
 }
   .swiper-container img{
     width: 100%;
 
   }
+ /* .pagination-current{
+
+  }
+
+   .pagination-current>swiper-pagination-bullet{
+     width: 0.4rem;
+     height: 0.2rem;
+     background-color: lawngreen;
+    }
+*/
 </style>

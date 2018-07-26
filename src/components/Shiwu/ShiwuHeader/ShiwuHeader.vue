@@ -1,70 +1,57 @@
 <template>
-<div>
-  <div class="nav-header">
-    <header class="header">
-      <a href="javascript:;" class="logo"></a>
-      <div class="search">
-        <i class="icon"></i>
-        <span class="serach-content">搜索商品，共97565款好物</span>
-      </div>
-    </header>
-    <div class="scrollNav">
-      <div class="scroll-container">
-        <div class="list">
-          <div class="listItem  ">
-            <span class="txt ">推荐</span>
-          </div>
-          <div class="listItem"  >
-            <span class="txt  ">居家 </span>
-          </div>
-          <div class="listItem"  >
-            <span class="txt :after">鞋包配饰 </span>
-          </div>
-          <div class="listItem"  >
-            <span class="txt">服装 </span>
-          </div>
-          <div class="listItem"  >
-            <span class="txt">电器 </span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+ <div>
+   <div class="nav-header">
+     <header class="header">
+       <slot class="HomeIcon">
 
+       </slot>
+       <a href="javascript:;" class="logo"></a>
+         <div class="search">
+           <i class="icon"></i>
+           <span class="serach-content">搜索商品，共97565款好物</span>
+         </div>
+      <slot>
+
+      </slot>
+
+     </header>
+     <div class="scroll">
+       <div class="scroll-container">
+         <div class="list">
+           <div class="listItem  ">
+             <a class="txt ">推荐</a>
+           </div>
+           <div class="listItem"  >
+             <a class="txt  ">居家 </a>
+           </div>
+           <div class="listItem"  >
+             <a class="txt :after">鞋包配饰 </a>
+           </div>
+           <div class="listItem"  >
+             <a class="txt">服装 </a>
+           </div>
+           <div class="listItem"  >
+             <a class="txt">电器 </a>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
 
 </template>
 
 <script>
-  import BScroll from 'better-scroll'
-  import {mapState, mapActions} from 'vuex'
 
+/*
   export default {
-    name: "msite-header",
-    methods: {
-      ...mapActions(['getHeadCateList'])
-
-    },
-    computed: {
-      ...mapState(['headCates'])
-    },
-    mounted () {
-      this.getHeadCateList()
-
-      this.$nextTick(() => {
-        new BScroll('.scroll-container', {
-          probeType: 2,  // 因为惯性滑动不会触发
-          click: true,   //默认是禁止点击的
-          scrollX: true,
-          scrollY:false
-        })
-      })
+    components: {
+      Header
     }
-  }
+  }*/
 </script>
 
 <style>
-
  .nav-header{
     position: fixed;
     top:0;
@@ -117,6 +104,9 @@
     color: #000000;
     display: block;
   }
+  .scroll{
+
+  }
   .scroll-container{
     width: 100%;
     display: flex;
@@ -127,12 +117,18 @@
     display :flex;
     justify-content: space-around;
     flex-shrink: 0 ; /*!*文字不换行*!*/
-    background-color: #ffffff;
+    margin-top: -0.1rem;
+   background-color: #ffffff;
 
   }
  .listItem {
-   justify-content: space-around;
-    display: block;
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.4rem;
+    padding-top: 0.2rem;
+
+  }
+ .listItem .txt{
     position: relative;
     padding: 0 0.2rem;
     line-height: 0.5rem;
@@ -140,11 +136,9 @@
     text-align: center;
     background-color: #FFFFFF;
   }
-   on {
-       color: #b4282d;
-       border-bottom: solid 2px #b4282d;
-     }
-
+   .listItem:active{
+    color: #b4282d;
+  }
    .listItem:first-child :after{
     position: absolute;
     content: "";

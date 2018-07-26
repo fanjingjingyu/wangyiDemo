@@ -10,6 +10,7 @@
 <script>
 import FooterGuide from './components/FooterGuid/FooterGuide.vue'
 
+
 export default {
   components: {
     FooterGuide,

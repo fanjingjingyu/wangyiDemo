@@ -44,14 +44,17 @@
 <style>
 .LoginWrap{
    width: 100%;
+  margin-top: 2.1rem;
+  padding-top: 2.1rem;
+  padding-bottom: 1.8rem;
+  margin-bottom: 1.5rem;
 }
 .LoginImgWrap{
   display: block;
   text-align: center;
   vertical-align: middle;
   width: 100%;
-  height:5.5rem;
-  line-height: 6rem;
+  line-height:5rem;
 }
 .LoginImg img{
   width: 3.5rem;
@@ -106,7 +109,6 @@
     align-items: center;
     justify-content: center;
     padding-top: 4.8rem;
-    padding-bottom: 8.4rem;
     line-height: 0.4rem;
     font-size: 0.4rem;
 

@@ -1,29 +1,32 @@
 <template>
-<div>
-  <footer class="footerContainer">
+ <div>
+   <div class="FooterWrap">
+     <footer class="footerContainer">
       <span class="guide_item"  @click="goto('/Msite')">
         <img class="tabBar Msite" src="./images/home2.png">
         <span class="txt" >首页</span>
       </span>
-    <span class="guide_item" @click="goto('/Shiwu')" >
+       <span class="guide_item" @click="goto('/Shiwu')" >
         <img class="tabBar Shiwu" src="./images/shiwu1.png">
         <span  class="txt"  >识物</span>
       </span>
-    <span class="guide_item" @click="goto('/Types')">
+       <span class="guide_item" @click="goto('/Types')">
         <img class="tabBar Types" src="./images/types1.png" >
         <span class="txt"  >分类</span>
       </span>
-    <span class="guide_item" @click="goto('/ShopCart')">
+       <span class="guide_item" @click="goto('/ShopCart')">
         <img class="tabBar ShopCart" src="./images/cart1.png" >
         <span class="txt"  >购物车</span>
       </span>
-    <span class="guide_item"  @click="goto('/Personal')">
+       <span class="guide_item"  @click="goto('/Personal')">
         <img class="tabBar Personal" src="./images/personal1.png" >
         <span class="txt"  >个人</span>
       </span>
-  </footer>
+     </footer>
 
-</div>
+   </div>
+ </div>
+
 
 </template>
 <script>
@@ -38,6 +41,9 @@
 </script>
 <style>
 
+  .FooterWrap{
+    width: 100%;
+  }
   .footerContainer {
     position: fixed;
     display: flex;

@@ -1,60 +1,84 @@
 <template>
-  <div>
-    <div class="TypeWrap">
-      <div class="TypeWrapLeft">
-        <ul class="TypeWrapLeftList">
-          <li class="TypeWrapListItem">推荐专区</li>
-          <li class="TypeWrapListItem">爆品区</li>
-          <li class="TypeWrapListItem">推荐专区</li>
-          <li class="TypeWrapListItem">爆品区</li>
-          <li class="TypeWrapListItem">推荐专区</li>
-          <li class="TypeWrapListItem">推荐专区</li>
-          <li class="TypeWrapListItem">爆品区</li>
-          <li class="TypeWrapListItem">推荐专区</li>
-          <li class="TypeWrapListItem">爆品区</li>
-          <li class="TypeWrapListItem">推荐专区</li>
-          <li class="TypeWrapListItem">爆品区</li>
-          <li class="TypeWrapListItem">推荐专区</li>
-          <li class="TypeWrapListItem">爆品区</li>
-          <li class="TypeWrapListItem">夏季专区</li>
-        </ul>
-      </div>
+  <div class="TypeWrap">
+    <div class="TypeWrapLeft  ">
+      <ul class="TypeWrapLeftList  ">
+        <li class="TypeWrapListItem">推荐专区</li>
+        <li class="TypeWrapListItem">爆品区</li>
+        <li class="TypeWrapListItem">推荐专区</li>
+        <li class="TypeWrapListItem">爆品区</li>
+        <li class="TypeWrapListItem">推荐专区</li>
+        <li class="TypeWrapListItem">推荐专区</li>
+        <li class="TypeWrapListItem">爆品区</li>
+        <li class="TypeWrapListItem">推荐专区</li>
+        <li class="TypeWrapListItem">爆品区</li>
+        <li class="TypeWrapListItem">推荐专区</li>
+        <li class="TypeWrapListItem">爆品区</li>
+        <li class="TypeWrapListItem">推荐专区</li>
+        <li class="TypeWrapListItem">爆品区</li>
+        <li class="TypeWrapListItem">夏季专区</li>
+      </ul>
+    </div>
+    <div class="TypeRight">
       <div class="TypeWrapRight">
         <div class="TypeRightImg"></div>
         <span class="TypeRightTxt">-- 推荐专区分类 --</span>
-        <div class="TheTypeList">
-          <ul class="TheTypeList">
-            <li class="TheTypeListItem">
+        <div class="TheTypeLists   ">
+          <ul class="TheTypeList  scrollWrap ">
+            <li class="TheTypeListI">
               <img class="TheTypes" src="../img/types/1.png" alt="">
               <span>服装夏季专享</span>
             </li>
-            <li class="TheTypeListItem">
+            <li class="TheTypeListI">
               <img class="TheTypes" src="../img/types/5.png" alt="">
               <span>服装夏季专享</span>
             </li>
-            <li class="TheTypeListItem">
-              <img class="TheTypes" src="../img/types/3.png" alt="">
-              <span>服装夏季专享</span>
-            </li>
-            <li class="TheTypeListItem">
-              <img class="TheTypes" src="../img/types/2.png" alt="">
-              <span>服装夏季专享</span>
-            </li>
-            <li class="TheTypeListItem">
-              <img class="TheTypes" src="../img/types/3.png" alt="">
-              <span>服装夏季专享</span>
-            </li>
-             <li class="TheTypeListItem">
+            <li class="TheTypeListI">
               <img class="TheTypes" src="../img/types/1.png" alt="">
               <span>服装夏季专享</span>
             </li>
-            <li class="TheTypeListItem">
+            <li class="TheTypeListI">
+              <img class="TheTypes" src="../img/types/5.png" alt="">
+              <span>服装夏季专享</span>
+            </li>
+            <li class="TheTypeListI">
+              <img class="TheTypes" src="../img/types/1.png" alt="">
+              <span>服装夏季专享</span>
+            </li>
+            <li class="TheTypeListI">
+              <img class="TheTypes" src="../img/types/5.png" alt="">
+              <span>服装夏季专享</span>
+            </li>
+            <li class="TheTypeListI">
+              <img class="TheTypes" src="../img/types/1.png" alt="">
+              <span>服装夏季专享</span>
+            </li>
+            <li class="TheTypeListI">
+              <img class="TheTypes" src="../img/types/5.png" alt="">
+              <span>服装夏季专享</span>
+            </li>
+            <li class="TheTypeListI">
+              <img class="TheTypes" src="../img/types/3.png" alt="">
+              <span>服装夏季专享</span>
+            </li>
+            <li class="TheTypeListI">
+              <img class="TheTypes" src="../img/types/2.png" alt="">
+              <span>服装夏季专享</span>
+            </li>
+            <li class="TheTypeListI">
+              <img class="TheTypes" src="../img/types/3.png" alt="">
+              <span>服装夏季专享</span>
+            </li>
+            <li class="TheTypeListI">
+              <img class="TheTypes" src="../img/types/1.png" alt="">
+              <span>服装夏季专享</span>
+            </li>
+            <li class="TheTypeListI">
               <img class="TheTypes" src="../img/types/4.png" alt="">
               <span>服装夏季专享</span>
             </li>
-           </ul>
-          </div>
-       </div>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -65,19 +89,19 @@
 
 
 <style>
+
   .TypeWrap{
-    border-top: solid 2px rgba(242, 245, 244, 0);
+    border-top: solid 3px rgba(186, 181, 178, 0);
     width: 100%;
-    margin-top: 0.4rem;
 }
   .TypeWrapLeft{
-    width: 3rem;
+    border-right: solid 3px rgba(212, 212, 212, 0);
+    width: 30%;
+    height: 15rem;
     vertical-align: middle;
     text-align: center;
     float: left;
-    background-color: #ffffff;
-
-  }
+      }
   .TypeWrapLeftList{
     width: 100%;
     font-size: 0.45rem;
@@ -93,17 +117,19 @@
   .TypeWrapListItem:first-child{
     color: #cc0031;
     font-size: 0.6rem;
+    border-left: solid 2px #cc0031;
+  }
+  .TypeRight{
+    overflow: scroll;
   }
   .TypeWrapRight{
-
-    width:7rem;
+    height: 15rem;
     float: right;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
     padding-top: 0.3rem;
    }
+
   .TypeRightImg{
     background-image: url("../img/types/1.jpg");
     background-size: 100%;
@@ -111,43 +137,43 @@
     display:block;
     width: 6rem;
     height: 3rem;
+    text-align: center;
+    vertical-align: middle;
 
   }
   .TypeRightTxt{
-    display:block;
+    display:inline-block;
     font-size: 0.4rem;
     padding-top: 0.4rem;
      }
+  .TheTypeLists{
+    /*position: absolute;*/
+
+  }
   .TheTypeList{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    width: 100%;
-    margin: 0.2rem;
-    flex-flow: wrap;
-    overflow: scroll;
-  }
-  ::-webkit-scrollbar{
-    display: none;
-  }
-  .TheTypeListItem{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
+    flex-flow: wrap;
+    width: 100%;
+    overflow: scroll;
+  }
+
+  .TheTypeListI{
+    font-size: 0.2rem;
+    margin: 0.3rem;
+    float: left;
+    display: flex;
     justify-content: center;
-    font-size: 0.3rem;
-    margin: 0.2rem;
+    flex-direction: column;
   }
   .TheTypes{
-    display: inline-block;
-    width: 1.8rem;
-    height: 1.8rem;
-    background-size: 100%;
 
   }
-  .TheTypeListItem{
+  .TheTypeListI{
     font-size: 0.3rem;
-    display: inline-block;
+    display:block;
     text-align: center;
     vertical-align: middle;
     width: 1.5rem;

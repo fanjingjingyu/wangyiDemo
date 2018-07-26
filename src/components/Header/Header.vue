@@ -1,53 +1,42 @@
 <template>
- <div class="HeaderWrap">
-   <div class="nav-header">
-     <header class="header">
-       <a href="javascript:;" class="logo"></a>
-       <div class="search">
-         <i class="icon"></i>
-         <span class="serach-content">搜索商品，共97565款好物</span>
-       </div>
-     </header>
-     <div class="scroll">
-       <div class="scroll-container ">
-         <ul class="list">
-           <li class="listItem  ">
-             <span class="txt txt1">推荐</span>
-           </li>
-           <li class="listItem"  >
-             <span class="txt">居家 </span>
-           </li>
-           <li class="listItem"  >
-             <span class="txt :after">鞋包配饰 </span>
-           </li>
-           <li class="listItem  ">
-             <span class="txt">推荐</span>
-           </li>
-           <li class="listItem"  >
-             <span class="txt">居家 </span>
-           </li>
-           <li class="listItem"  >
-             <span class="txt :after">鞋包配饰 </span>
-           </li>
-           <li class="listItem"  >
-             <span class="txt">服装 </span>
-           </li>
-           <li class="listItem"  >
-             <span class="txt">电器 </span>
-           </li>
-         </ul>
-       </div>
-     </div>
-   </div>
- </div>
+  <div>
+    <div class="HeaderWrap">
+      <div class="nav-header">
+        <header class="header">
+          <router-link to="/Msite" class="headHome"></router-link>
+          <router-link  class="headLogo"></router-link>
+          <div class="search">
+            <i class="icon"></i>
+            <span class="headSerach ">搜索商品，共97565款好物</span>
+          </div>
+          <router-link to="/ ShopCart" class="headCart">
+            <i class="HeaderCartCon"></i>
+          </router-link>
+        </header>
+
+      </div>
+    </div>
+  </div>
+
 
 </template>
-
 <script>
+
+  export default {
+    name:'Header'
+
+
+
+  }
 
 </script>
 
+
+
 <style>
+  .HeaderWrap{
+    width: 100%;
+  }
  .nav-header{
     position: fixed;
     top:0;
@@ -57,13 +46,12 @@
     z-index: 10;
     background-color: #ffffff;
  }
-
  .header{
     padding:0.3rem ;
     display: flex;
     align-items: center;
   }
-  .header .logo  {
+ .headLogo   {
     display: flex;
     background-image: url("./imgHeader/logo.png");
     width: 1.9rem;
@@ -71,7 +59,6 @@
     margin-right: 0.3rem;
     background-position: center;
     background-size: 100% 100%;
-
   }
  .search{
     display: flex;
@@ -82,9 +69,8 @@
     font-size: 0.4rem;
     background-color: #ededed;
     border-radius: 0.1rem;
-
   }
-   .search .icon{
+  .search .icon{
     display: flex;
     align-items: baseline;
     width: 0.3rem;
@@ -94,45 +80,31 @@
     background-size: 100% 100%;
     margin-right: 0.2rem;
   }
-  .serach-content{
-    color: #414141;
+  .headSerach {
+
     display: block;
   }
-.scroll{
-  width: 100%;
-  display: flex;
-  overflow: scroll;
-  background-color: #ffffff;
+
+.headHome{
+  display: inline-block;
+  background-color: lawngreen;
+  background-image: url("./imgHeader/home1.png");
+  background-size: 100%;
+  width: 0.4rem;
+  height: 0.4rem;
+  vertical-align: middle;
 }
-
- .list{
-    width: 100%;
-    float: left;
-    display: flex;
-    font-size: 0.4rem;
-    padding-left: 0.3rem;
-
-  }
- ::-webkit-scrollbar{
-   display: none;
- }
- .listItem {
-    width: 1.8rem;
-    margin-right: 0.5rem;
-    text-align: center;
+  .headCart{
+    display: inline-block;
     vertical-align: middle;
-  }
- .txt{
-   display:inline-block;
+    background-color: #003399;
+    background-image: url("./imgHeader/cart1.png");
+    width: 0.4rem;
+    height: 0.4rem;
+    background-size: 100%;
+    background-repeat:no-repeat;
 
- }
- .txt1{
-   border-bottom: solid 3px #cc0031;
-   margin-bottom: 0.15rem;
-   line-height: 0.5rem;
-   color: #b4282d;
   }
-
 
 
 </style>

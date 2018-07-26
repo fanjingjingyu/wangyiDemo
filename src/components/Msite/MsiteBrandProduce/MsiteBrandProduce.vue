@@ -173,7 +173,6 @@
         <div class="GoodThingGoods" >
           <span class="ProduceTxt">人物推荐，好物精选</span>
           <a class="GoodThingCheck">查看全部 ></a>
-          <!--<i></i>-->
         </div>
         <div class="GoodThing">
           <div class="GoodThingContainer">
@@ -186,7 +185,6 @@
                       <span class="BP">爆品</span>
                       <span class="TJ">暑期特价</span>
                     </div>
-
                     <span class="Gtxt1">女式浪漫散摆修身连衣裙漂亮的花裙子</span><hr>
                     <span  class="Gtxt2">少即是多，浪漫圆摆气质大爱</span><hr>
                     <span  class="GPrs">￥399</span>
@@ -224,44 +222,7 @@
 
                 </a>
               </li>
-              <li class="GoodThingInfo">
-                <a class="theGood" href="javascript:;">
-                  <img src="./img/xinpin/6.png" alt="">
-                  <a class="GtxtContent">
-                    <span class="Gtxt1">女式浪漫散摆修身连衣裙</span><hr>
-                    <span  class="Gtxt2">少即是多，浪漫圆摆气质大爱</span><hr>
-                    <span  class="GPrs">￥399</span>
-                  </a>
-                </a>
-              </li>
-              <li class="GoodThingInfo">
-                <a class="theGood" href="javascript:;">
-                  <img src="./img/xinpin/7.png" alt="">
-                  <a class="GtxtContent">
-                    <span class="Gtxt1">女式浪漫散摆修身连衣裙</span><hr>
-                    <span  class="Gtxt2">少即是多，浪漫圆摆气质大爱</span><hr>
-                    <span  class="GPrs">￥399</span>
-                  </a>
-                </a>
-              </li>
-              <li class="GoodThingInfo">
-                <a class="theGood" href="javascript:;">
-                  <img src="./img/xinpin/7.png" alt="">
-                  <a class="GtxtContent">
-                    <span class="Gtxt1">女式浪漫散摆修身连衣裙</span><hr>
-                    <span  class="Gtxt2">少即是多，浪漫圆摆气质大爱</span><hr>
-                    <span  class="GPrs">￥399</span>
-                  </a>
-                </a>
-              </li>
-              <li class="GoodThingInfo">
-                <a class="theGood" href="javascript:;">
-                  <span class="GtxtContent">
-                    <span class="GcheckAll">查看全部</span>
-                  </span>
-                </a>
-              </li>
-            </ul>
+           </ul>
           </div>
         </div>
       </div>
@@ -355,7 +316,7 @@
     height: 3.8rem;
     overflow: hidden;
     box-sizing: border-box;
-    background-color: #d9d9d9;
+    background-color: #f0edeb;
     margin: 0.1rem;
     padding:0.3rem;
   }

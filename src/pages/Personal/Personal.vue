@@ -26,7 +26,6 @@
 <style>
   .wrap{
     width: 100%;
-    margin-top: 2.1rem;
 
   }
 </style>
