@@ -1,12 +1,11 @@
 <template>
  <div >
    <Header></Header>
-      <div class="wrap">
-        <ShiwuSlide></ShiwuSlide>
-        <ShiwuArticle></ShiwuArticle>
-        <ShiwuShiDian></ShiwuShiDian>
-        <Zhenpin></Zhenpin>
-      </div>
+      <ShiwuSlide></ShiwuSlide>
+      <ShiwuArticle></ShiwuArticle>
+      <ShiwuShiDian></ShiwuShiDian>
+      <Zhenpin></Zhenpin>
+
 </div>
 </template>
 
@@ -34,10 +33,6 @@
 
 
 <style>
-  .wrap{
-    width: 100%;
-    margin-bottom: 2rem;
-    margin-top: 2.2rem;
-  }
+
 
 </style>

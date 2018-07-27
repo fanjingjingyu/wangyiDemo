@@ -8,11 +8,9 @@
        </div>
       <div class="ToLogin">
         <div class="Numlogin">
-          <!--<img src="../../img/login/aa.png" >-->
           <span> 手机号码登录</span>
         </div>
         <div class="Maillogin">
-          <!--<img src="../../img/login/aa.png" >-->
           <span> 邮箱账号登录 </span>
         </div>
         <a class="QRej">手机号快捷注册 > </a>
@@ -43,18 +41,17 @@
 
 <style>
 .LoginWrap{
+  position: fixed;
    width: 100%;
-  margin-top: 2.1rem;
-  padding-top: 2.1rem;
-  padding-bottom: 1.8rem;
-  margin-bottom: 1.5rem;
+   margin-top: 2rem;
+   background-color: #d9d9d9;
 }
 .LoginImgWrap{
   display: block;
   text-align: center;
   vertical-align: middle;
   width: 100%;
-  line-height:5rem;
+  line-height:6rem;
 }
 .LoginImg img{
   width: 3.5rem;
@@ -71,7 +68,6 @@
 
 }
 .Numlogin{
-
   padding-top: 0.3rem;
   position: relative;
   margin-bottom: 0.5rem;
@@ -104,11 +100,11 @@
   }
   .LoginType{
     width: 100%;
-    height: 1rem;
+    height: 7.2rem;
     display:flex;
     align-items: center;
     justify-content: center;
-    padding-top: 4.8rem;
+    padding-top: 1.8rem;
     line-height: 0.4rem;
     font-size: 0.4rem;
 
@@ -121,7 +117,6 @@
   border-right: solid 2px #878787;
 
 }
-
   .Q{
     padding-left: 0.4rem;
     padding-right: 0.4rem;

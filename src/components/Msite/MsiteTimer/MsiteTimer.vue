@@ -1,5 +1,4 @@
 <template>
-<div class="TM">
   <div class="Timer">
     <div class="TimeAreaContainer">
       <div class="TimerLeft">
@@ -27,19 +26,15 @@
         </div>
       </div>
     </div>
-    </div>
     <div class="Fuli">
       <img src="./fulishe.jpg" alt="">
     </div>
-</div>
+  </div>
+
 </template>
 <script>
 </script>
 <style>
-  .TM{
-    width: 100%;
-    margin: 0.01rem;
-  }
   .TimeAreaContainer{
     width: 100%;
     height: 5rem;

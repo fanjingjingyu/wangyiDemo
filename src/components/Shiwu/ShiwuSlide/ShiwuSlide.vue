@@ -61,7 +61,7 @@
 
   .swiper-container{
     width: 100%;
-    margin-top: 2.2rem;
+    margin-top: 1.5rem;
     background-color: #ffffff;
   }
   .swiper-container img{
@@ -74,5 +74,6 @@
     margin-right: 0.1rem;
 
   }
+
 
 </style>

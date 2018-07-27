@@ -17,7 +17,6 @@
         </li>
       </ul>
     </div>
-
     <div class="CartSpace"></div>
     <div class="CartImg">
       <img src="../../img/cart.png" alt="">
@@ -25,32 +24,40 @@
     <div class="CartAdd">
       <span>去添加点什么吧</span>
     </div>
-      <span class="CartLogin">登录</span>
-
+      <span class="CartLogin"  @click="goto('/Personal')">登录</span>
   </div>
 </div>
 </template>
 
 
 <script>
+  export default {
 
+    methods: {
+
+      goto (path) {
+        this.$router.replace(path)
+      }
+    }
+  }
 
 </script>
 
 
 <style>
-.wrap{
-  width: 100%;
-}
+
+  .wrap{
+    width: 100%;
+    height:15rem ;
+    background-color: #d9d9d9;
+  }
   .List{
     width: 100%;
     height: 1rem;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    margin-top: 0.2rem;
     font-size: 0.35rem;
-
   }
   .ListItem{
     margin-right: 0.4rem;

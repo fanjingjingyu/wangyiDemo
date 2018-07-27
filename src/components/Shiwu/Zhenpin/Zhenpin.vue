@@ -7,7 +7,7 @@
       <div class="ZhenpinContainer">
         <div class="ZhenpinWrapInfo">
           <span class="ZhenpinGoods">优质的成熟蜜千里挑一</span>
-          <hr><span class="ZhenpinGoodsPrice">成熟洋槐蜜限时45元</span>
+          <span class="ZhenpinGoodsPrice">成熟洋槐蜜限时45元</span>
         </div>
         <div class="ZhenpinWrapImg">
           <img src="../../img/jshao/3.jpg" alt=""></div>

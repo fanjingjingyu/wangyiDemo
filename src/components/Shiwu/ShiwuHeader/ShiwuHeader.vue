@@ -83,7 +83,7 @@
     flex-grow: 1;
     align-items: center;
     justify-content: center;
-    width: 70%;
+    width: 65%;
     height: 0.9rem;
     font-size: 0.4rem;
     background-color: #ededed;

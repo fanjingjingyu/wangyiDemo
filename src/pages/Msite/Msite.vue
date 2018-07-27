@@ -1,18 +1,17 @@
 <template>
  <div>
+
      <MsiteHeader></MsiteHeader>
-     <div>
-       <div class="MsiteWrap">
-         <MsiteSlide></MsiteSlide>
-         <MsiteBrandProduce></MsiteBrandProduce>
-         <MsiteTimer></MsiteTimer>
-         <MsiteTopicGoods></MsiteTopicGoods>
-         <MsiteJujiaGoods></MsiteJujiaGoods>
-         <MsiteNewProduct></MsiteNewProduct>
-         <MsiteFooter></MsiteFooter>
-         <MsiteFixs></MsiteFixs>
-       </div>
-     </div>
+     <MsiteSlide></MsiteSlide>
+     <MsiteBrandProduce></MsiteBrandProduce>
+     <MsiteTimer></MsiteTimer>
+     <MsiteTopicGoods></MsiteTopicGoods>
+     <MsiteJujiaGoods></MsiteJujiaGoods>
+     <MsiteNewProduct></MsiteNewProduct>
+     <MsiteFooter></MsiteFooter>
+     <MsiteFixs></MsiteFixs>
+
+
  </div>
 
 
@@ -40,18 +39,13 @@
       MsiteJujiaGoods,
       MsiteNewProduct,
       MsiteFooter,
-      MsiteFixs
+      MsiteFixs,
+
     }
   }
 </script>
 
 
 <style>
-
-.MsiteWrap{
-  width: 100%;
-  margin-bottom: 1.8rem;
-  margin-top: 2.2rem;
-}
 
 </style>

@@ -1,4 +1,5 @@
 <template>
+
   <div class="TypeWrap">
     <div class="TypeWrapLeft  ">
       <ul class="TypeWrapLeftList  ">
@@ -7,6 +8,8 @@
         <li class="TypeWrapListItem">推荐专区</li>
         <li class="TypeWrapListItem">爆品区</li>
         <li class="TypeWrapListItem">推荐专区</li>
+        <li class="TypeWrapListItem">推荐专区</li>
+        <li class="TypeWrapListItem">爆品区</li>
         <li class="TypeWrapListItem">推荐专区</li>
         <li class="TypeWrapListItem">爆品区</li>
         <li class="TypeWrapListItem">推荐专区</li>
@@ -81,6 +84,10 @@
       </div>
     </div>
   </div>
+
+
+
+
 </template>
 
 <script>
@@ -91,23 +98,31 @@
 <style>
 
   .TypeWrap{
-    border-top: solid 3px rgba(186, 181, 178, 0);
+    border-top: solid 2px #d9d9d9;
     width: 100%;
+    margin-top: 0.2rem;
 }
   .TypeWrapLeft{
-    border-right: solid 3px rgba(212, 212, 212, 0);
+    border-right: solid 2px #d9d9d9;
     width: 30%;
-    height: 15rem;
+
     vertical-align: middle;
     text-align: center;
     float: left;
+    padding-bottom: 0.5rem;
+    /*overflow: hidden;*/
       }
   .TypeWrapLeftList{
     width: 100%;
+    height: 15rem;
     font-size: 0.45rem;
     overflow: scroll;
   }
+  ::-webkit-scrollbar{
+    display: none;
+  }
   .TypeWrapListItem{
+
     width: 100%;
     height:0.4rem;
     line-height: 0.6rem;
@@ -134,7 +149,7 @@
     background-image: url("../img/types/1.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
-    display:block;
+    display:inline-block;
     width: 6rem;
     height: 3rem;
     text-align: center;
@@ -146,10 +161,7 @@
     font-size: 0.4rem;
     padding-top: 0.4rem;
      }
-  .TheTypeLists{
-    /*position: absolute;*/
 
-  }
   .TheTypeList{
     display: flex;
     flex-direction: column;
@@ -168,9 +180,7 @@
     justify-content: center;
     flex-direction: column;
   }
-  .TheTypes{
 
-  }
   .TheTypeListI{
     font-size: 0.3rem;
     display:block;

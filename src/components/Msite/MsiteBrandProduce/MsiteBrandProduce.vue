@@ -1,6 +1,5 @@
 <template>
-
-  <div class="GDContainer">
+  <div  >
     <div class="guardsContainer ">
       <ul class="guards" >
         <li class="item">
@@ -228,7 +227,6 @@
       </div>
     </div>
   </div>
-
 </template>
 <script>
 
@@ -237,10 +235,6 @@
 
 <style>
 
-  .GDContainer{
-    width: 100%;
-    margin-bottom: 0.1rem;
-  }
   /*  三大保障样式*/
   .guardsContainer{
     display: flex;
@@ -262,7 +256,8 @@
   }
   .guards>.item>.arrows{
     display: flex;
-    /*justify-content: space-around;*/
+    align-items: center;
+    justify-content: center;
   }
  .ar{
     display: inline-block;

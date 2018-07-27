@@ -1,5 +1,5 @@
 <template>
-<div>
+
   <div class="swiper-container  " >
     <div class="swiper-wrapper  ">
       <div class="swiper-slide slideImg1">
@@ -27,26 +27,29 @@
         <img src="./imgSlide/08.jpg">
       </div>
     </div>
-    <div class="swiper-pagination pagination-current"></div>
+    <div class="swiper-pagination  swiper-pagination-bullet"></div>
   </div>
 
-</div>
+
 
 </template>
 
 <script>
-  import Swiper from 'swiper'
+
   import 'swiper/dist/css/swiper.min.css'
+  import Swiper from 'swiper'
   export default {
     mounted(){
       this.$nextTick(()=> {
         new Swiper('.swiper-container', {
           slidesPerView: 'auto', /*swiper内容超出添加横向滚动条*/
-          currentClass:'pagination-current',
+
           autoplay:true,
           loop: true,
+
           pagination: {
             el: '.swiper-pagination',
+//            currentClass:'swiper-pagination-bullet',
           },
         })
       })
@@ -56,24 +59,25 @@
 
 </script>
 
-
 <style>
 
 .swiper-container{
    width: 100%;
+  margin-top: 0.2rem;
 }
   .swiper-container img{
     width: 100%;
 
   }
- /* .pagination-current{
 
-  }
+/*.swiper-pagination-bullet{
 
-   .pagination-current>swiper-pagination-bullet{
-     width: 0.4rem;
-     height: 0.2rem;
-     background-color: lawngreen;
-    }
-*/
+    width: 0.5rem;
+    height: 0.1rem;
+    display: inline-block;
+    border-radius: 20%;
+    background-color: lawngreen;
+    opacity: 0.2;
+  }*/
+
 </style>
