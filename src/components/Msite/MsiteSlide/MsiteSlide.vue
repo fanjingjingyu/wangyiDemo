@@ -63,7 +63,7 @@
 
 .swiper-container{
    width: 100%;
-  margin-top: 0.2rem;
+   margin-top: 0.2rem;
 }
   .swiper-container img{
     width: 100%;

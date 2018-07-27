@@ -58,9 +58,11 @@
     justify-content: center;
     align-items: center;
     font-size: 0.35rem;
+
   }
   .ListItem{
-    margin-right: 0.4rem;
+    margin-top: 0.5rem;
+    margin-right: 0.3rem;
   }
 .CartSpace{
   width: 100%;
@@ -94,7 +96,8 @@
     align-items: center;
     color: #ffffff;
     margin-left: 1rem;
-    margin-top: 1.5rem;
+    border-radius: 0.3rem;
+
   }
 
 </style>

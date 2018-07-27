@@ -1,6 +1,6 @@
 <template>
 
-  <div class="TypeWrap">
+  <div class="TypesWrap">
     <div class="TypeWrapLeft  ">
       <ul class="TypeWrapLeftList  ">
         <li class="TypeWrapListItem">推荐专区</li>
@@ -97,10 +97,12 @@
 
 <style>
 
-  .TypeWrap{
+  .TypesWrap{
+
+    position: fixed;
     border-top: solid 2px #d9d9d9;
     width: 100%;
-    margin-top: 0.2rem;
+    margin-top: 1.4rem;
 }
   .TypeWrapLeft{
     border-right: solid 2px #d9d9d9;

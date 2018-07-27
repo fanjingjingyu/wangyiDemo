@@ -2,9 +2,9 @@
   <div>
     <header class="header">
       <router-link  to="/Msite" class="HeadLogo"></router-link>
-      <div class="search">
-        <i class="icon  "></i>
-        <span class="HeadSerach  ">搜索商品，共97565款好物</span>
+      <div class="MSearch">
+        <i class="MSearchCon  "></i>
+        <span class=" SerachIcon  ">搜索商品，共97565款好物</span>
       </div>
     </header>
     <div class="scroll-container">
@@ -77,9 +77,10 @@
    width: 1.9rem;
    height: 0.6rem;
    background-size: 100%;
+   margin-right: 0.2rem;
  }
 
- .search{
+ .MSearch{
    display: flex;
    align-items: center;
    justify-content: center;
@@ -89,7 +90,7 @@
    background-color: #ededed;
    border-radius: 0.2rem;
  }
- .icon  {
+ .MSearchCon  {
    display: flex;
    width: 0.7rem;
    height: 0.7rem;
@@ -98,10 +99,6 @@
    background-size: 100%  ;
    margin-right: 0.2rem;
    margin-left: 0.2rem;
- }
- .HeadSerach{
-   display: block;
-   background-color: #d9d9d9;
  }
 
  .scroll-container{

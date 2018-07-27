@@ -47,10 +47,11 @@
     justify-content: space-around;
   }
  .HeadLogo   {
-
     background-image: url("./imgHeader/logo.png");
-    width: 1.9rem;
+    width: 1.8rem;
     height: 0.6rem;
+    margin-right: 0.2rem;
+    background-repeat: no-repeat;
     background-size: 100%;
   }
 
@@ -58,22 +59,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    min-width: 20%;
-    max-width: 68%;
-    height: 0.9rem;
-    font-size: 0.4rem;
+    width:65% ;
+    height: 0.8rem;
+    font-size: 0.35rem;
     background-color: #ededed;
-    border-radius: 0.1rem;
+    border-radius: 0.2rem;
   }
  .icon  {
     display: flex;
-    /*align-items: baseline;*/
-    width: 0.6rem;
-    height: 0.6rem;
+    width: 0.7rem;
+    height: 0.7rem;
     background-image: url("./imgHeader/search.png");
     background-repeat: no-repeat;
     background-size: 100%  ;
     margin-right: 0.2rem;
+    background-color: #ededed;
   }
 
 .HeadHome{
@@ -81,8 +81,8 @@
 /*  background-color: lawngreen;*/
   background-image: url("./imgHeader/home1.png");
   background-size: 100%;
-  width: 0.6rem;
-  height: 0.6rem;
+  width: 0.7rem;
+  height: 0.7rem;
   float: left;
   vertical-align: middle;
 }
@@ -91,8 +91,8 @@
     vertical-align: middle;
     float: right;
     background-image: url("./imgHeader/cart1.png");
-    width: 0.6rem;
-    height: 0.6rem;
+    width: 0.7rem;
+    height: 0.7rem;
     background-size: 100%;
     background-repeat:no-repeat;
 

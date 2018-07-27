@@ -2,13 +2,13 @@
   <div>
     <div class="nav-header">
       <header class="header">
-        <div class="search">
+        <div class="searchCon">
           <i class="icon HeadSerach  "></i>
           <span  >搜索商品，共97565款好物</span>
         </div>
       </header>
     </div>
-    <div class="wrap">
+    <div  >
       <Types></Types>
     </div>
 
@@ -44,7 +44,7 @@
     justify-content: center;
 
   }
-  .search{
+  .searchCon{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,7 +55,7 @@
     background-color: #ededed;
     border-radius: 0.2rem;
   }
-  .icon  {
+  .HeadSerach  {
     display: flex;
     width: 0.6rem;
     height: 0.6rem;
@@ -66,10 +66,5 @@
     background-color: #ededed;
   }
 
-  .wrap{
-    position: fixed;
-    width: 100%;
-    margin-top: 1.5rem;
 
-  }
 </style>

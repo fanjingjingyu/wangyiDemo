@@ -1,6 +1,5 @@
 <template>
- <div>
-
+ <div class="Wrap">
      <MsiteHeader></MsiteHeader>
      <MsiteSlide></MsiteSlide>
      <MsiteBrandProduce></MsiteBrandProduce>
@@ -10,8 +9,6 @@
      <MsiteNewProduct></MsiteNewProduct>
      <MsiteFooter></MsiteFooter>
      <MsiteFixs></MsiteFixs>
-
-
  </div>
 
 
@@ -47,5 +44,8 @@
 
 
 <style>
-
+.Wrap{
+  width: 100%;
+  margin-top: 0.2rem;
+}
 </style>

@@ -1,6 +1,6 @@
 <template>
  <div>
-   <div class="HeaderWrap">
+  <!-- <div class="HeaderWrap">
      <div class="nav-header">
        <header class="header">
          <router-link to="/Msite" class="HeadHome"></router-link>
@@ -13,7 +13,8 @@
          </div>
        </header>
      </div>
-   </div>
+   </div>-->
+   <Header></Header>
    <Personal></Personal>
 
  </div>
@@ -22,10 +23,14 @@
 
 
 <script>
-   import Personal from '../../components/Personal/Personal/Personal.vue'
+  import Header from '../../components/Header/Header.vue'
+
+  import Personal from '../../components/Personal/Personal/Personal.vue'
 
   export default {
+
     components: {
+      Header,
       Personal,
     }
   }
@@ -34,20 +39,13 @@
 <style>
   .HeaderWrap{
     width: 100%;
-   background-color: #d9d9d9;
+    background-color: #d9d9d9;
   }
-  .nav-header{
-    /*padding-top:0.5rem ;*/
-    position: fixed;
-    top:0;
-    left: 0;
-    width: 100%;
 
-  }
   .header{
     background-color: #ffffff;
     width: 100%;
-    height:1.8rem;
+    height: 1.8rem;
     display: flex;
     align-items: center;
     justify-content: space-around;

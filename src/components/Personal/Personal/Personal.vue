@@ -43,7 +43,7 @@
 .LoginWrap{
   position: fixed;
    width: 100%;
-   margin-top: 2rem;
+   margin-top: 1.8rem;
    background-color: #d9d9d9;
 }
 .LoginImgWrap{
@@ -104,7 +104,7 @@
     display:flex;
     align-items: center;
     justify-content: center;
-    padding-top: 1.8rem;
+
     line-height: 0.4rem;
     font-size: 0.4rem;
 

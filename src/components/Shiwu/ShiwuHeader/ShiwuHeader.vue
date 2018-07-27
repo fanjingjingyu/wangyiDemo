@@ -1,6 +1,6 @@
 <template>
  <div>
-   <div class="nav-header">
+  <!-- <div class="nav-header">-->
      <header class="header">
        <slot class="HomeIcon">
 
@@ -52,6 +52,7 @@
 </script>
 
 <style>
+/*
  .nav-header{
     position: fixed;
     top:0;
@@ -61,52 +62,48 @@
     z-index: 10;
     background-color: #ffffff;
  }
+*/
 
- .header{
+/* .header{
     padding:0.3rem ;
     display: flex;
     align-items: center;
-  }
-  .header .logo  {
+  }*/
+ /* .header .logo  {
     display: flex;
-    /*padding-top: 0.3rem;*/
     background-image: url("./imgHeader/logo.png");
     width: 1.9rem;
     height: 0.6rem;
     margin-right: 0.3rem;
     background-position: center;
-    background-size: 100% 100%;
+    background-size: 100%;
 
-  }
- .search{
-    display: flex;
-    flex-grow: 1;
-    align-items: center;
-    justify-content: center;
-    width: 65%;
-    height: 0.9rem;
-    font-size: 0.4rem;
-    background-color: #ededed;
-    border-radius: 0.1rem;
+  }*/
+ /*.search{*/
+    /*display: flex;*/
+    /*flex-grow: 1;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*width:75%;*/
+    /*height: 0.9rem;*/
+    /*font-size: 0.4rem;*/
+    /*background-color: #ededed;*/
+    /*border-radius: 0.1rem;*/
 
-  }
-   .search .icon{
+  /*}*/
+  /* .search .icon{
     display: flex;
     align-items: baseline;
     width: 0.3rem;
     height: 0.3rem;
     background-image: url("./imgHeader/search.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100%;
     margin-right: 0.2rem;
-  }
-  .serach-content{
-    color: #000000;
-    display: block;
-  }
-  .scroll{
+    background-color: #ededed;
+  }*/
 
-  }
+
   .scroll-container{
     width: 100%;
     display: flex;

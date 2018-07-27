@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="swiper-container  " >
-      <div class="swiper-wrapper  ">
+    <div class="   swiper-container  " >
+      <div class=" SWcontainer swiper-wrapper  ">
         <div class="swiper-slide slideImg1">
           <img src="../../img/swImgSlide/1.jpg">
         </div>
@@ -59,7 +59,7 @@
 
 <style>
 
-  .swiper-container{
+  .SWcontainer{
     width: 100%;
     margin-top: 1.5rem;
     background-color: #ffffff;

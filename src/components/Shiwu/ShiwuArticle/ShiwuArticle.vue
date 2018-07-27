@@ -150,6 +150,7 @@
   .ArticleContainer{
     width: 100%;
     margin-top: 0.2rem;
+    background-color: #f0edeb;
 
   }
 .ArticleInner{
@@ -167,6 +168,7 @@
  .ArticleInItem{
    width: 5rem;
    height: 5rem;
+   margin: 0.2rem;
    display: flex;
    flex-direction: column;
    align-items: center;
